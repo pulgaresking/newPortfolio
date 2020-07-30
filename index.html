@@ -15,6 +15,11 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/d81dbc2f3c.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
@@ -31,29 +36,163 @@
           </div>
 
           <div class="left-column">
-              
+            <img src="images/men_avatar.png" style="width: 180px;" />
+
+            <h5>SOCIAL LINKS</h5>
+
+            <div class="social-icons">
+              <i class="fab fa-facebook fa-2x"></i>
+              <i class="fab fa-facebook-messenger fa-2x"></i>
+            </div>
+
+            <h6>Let's create a website for your business.</h6>
+            <h6>Let's Talk!</h6>
           </div>
 
-          <div class="right-column">right column</div>
+          <div class="right-column">
+            <div class="shadow">
+              <div class="box">
+                <div id="tl" class="corner"></div>
+                <div id="tr" class="corner"></div>
+                <h3>What I Do</h3>
+                <p>
+                  I'm an aspiring Web Developer, I am currently learning things
+                  that i want to build
+                </p>
+
+                <div id="br" class="corner"></div>
+                <div id="bl" class="corner"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section2">
       <div class="main-container">
-        About
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4>More about me</h4>
+            <p>
+              I build new projects just to tickle my brain and love teaching
+              others how they're made.
+            </p>
+            <br />
+            <p>
+              While I keep busy teaching courses, I still take interviews in
+              search of a great team & projects that interest me.
+            </p>
+
+            <hr style="margin: 15px 0px 30px;" />
+
+            <h4>TOP EXPERTISE</h4>
+            <p>
+              Fullstack developer with primary focus on Django + React: Download
+              Resume
+            </p>
+            <div id="skills">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>ReactJS</li>
+              </ul>
+              <ul>
+                <li>Python</li>
+                <li>Django</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="right">
+            <p>
+              I build new projects just to tickle my brain and love teaching
+              others how they're made. While I keep busy teaching courses, I
+              still take interviews in search of a great team & projects that
+              interest me.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section1">
       <div class="main-container">
-        Portfolio
+        <h4 style="text-align: center; padding: 20px;">
+          Some of my past projects
+        </h4>
+
+        <div class="project-wrapper">
+          <div class="project">
+            <img
+              src="images/men_avatar.png"
+              style="width: 320px; height: 180px;"
+            />
+            <div class="project-details">
+              <h5>Online Store - CoursePost Title</h5>
+              <p>
+                Online store with paypal payments intergration and guest user
+                shopping
+              </p>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="images/men_avatar.png"
+              style="width: 320px; height: 180px;"
+            />
+            <div class="project-details">
+              <h5>Online Store - CoursePost Title</h5>
+              <p>
+                Online store with paypal payments intergration and guest user
+                shopping
+              </p>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="images/men_avatar.png"
+              style="width: 320px; height: 180px;"
+            />
+            <div class="project-details">
+              <h5>Online Store - CoursePost Title</h5>
+              <p>
+                Online store with paypal payments intergration and guest user
+                shopping
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="section2">
       <div class="main-container">
-        Contact
+        <h3 style="text-align: center; padding-top: 40px;">Get in touch</h3>
+
+        <form method="POST" id="contact-form">
+          <label>Name</label>
+          <input class="input-field" type="text" />
+
+          <label>Subject</label>
+          <input class="input-field" type="text" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" />
+
+          <label>Message</label>
+          <textarea class="input-field"></textarea>
+          <br />
+          <input
+            class="input-field"
+            id="submitBtn"
+            type="submit"
+            value="Submit"
+          />
+        </form>
       </div>
     </section>
   </body>
