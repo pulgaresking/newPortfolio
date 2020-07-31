@@ -292,7 +292,7 @@ textarea {
     justify-self: center;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 376px) {
   .shadow {
     width: 250px;
     height: 200px;
@@ -308,6 +308,7 @@ textarea {
   .about-me,
   .right {
     padding: 0px 10px;
+    justify-content: center;
   }
   .section1,
   .section2 {
